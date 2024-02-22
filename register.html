@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-form">
+        <h2>Register</h2>
+
+        <form action="simpan_user.php" method="post">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="username"
+              name="username"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="password"
+              name="password"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary" value="Log In">
+            Login
+          </button>
+          <br />
+
+          <span>
+            Sudah Punya Akun?
+            <a class="small text-center" href="index.html">Login!</a>
+          </span>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
